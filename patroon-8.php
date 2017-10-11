@@ -21,7 +21,6 @@ for ($i = 1; $i < aantalCircles8; $i++) {
 
 			$color = "#78BAC9";
 		} else {
-			//groen
 			$color = "#78BAC9";
 		}
 		echo ("<div class ='circle' style=background:$color;></div>");

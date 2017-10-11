@@ -15,17 +15,13 @@ for ($i = 1; $i < aantalCircles10; $i++) {
 	for ($j = 1; $j < aantalCircles10; $j++) {
 
 		if ($i == $j) {
-			//rood
 			$color = "#CF5225";
 
 		} elseif ($i == 10 - $j) {
-			//rood
 			$color = "#CF5225";
 		} elseif ($j > $i && $i < 10 - $j) {
-			//blauw
 			$color = "#EEEEEE";
 		} elseif ($i > 10 - $j && $i > $j) {
-			//groen
 			$color = "#78BAF9";
 		} else {
 			$color = "#76AC9";

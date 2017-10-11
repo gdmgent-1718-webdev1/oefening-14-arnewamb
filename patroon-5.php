@@ -14,14 +14,11 @@ for ($i = 1; $i < aantalCircles5; $i++) {
 	for ($j = 1; $j < aantalCircles5; $j++) {
 
 		if ($i % 3 == 0) {
-			//blauw
 			$color = "#78BAC9";
 
 		} elseif ($i % 3 == 1) {
-			//rood
 			$color = "#EFB357";
 		} elseif ($i % 3 == 2) {
-			//groen
 			$color = "#78BAC9";
 		}
 		echo ("<div class ='circle' style=background:$color;></div>");

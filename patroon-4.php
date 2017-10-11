@@ -14,9 +14,9 @@ for ($i = 0; $i < aantalCircles4; $i++) {
 	for ($j = 0; $j < 8 - $i + 1; $j++) {
 		echo ("<div class ='circle'></div>");
 	}
-	echo ("<br><br>");
-	echo ("<br><br>");
-	echo ("<br><br>");
+	echo ("<br>");
+	echo ("<br>");
+	echo ("<br>");
 
 }
 ?>

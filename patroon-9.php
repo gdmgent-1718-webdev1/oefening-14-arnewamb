@@ -14,17 +14,13 @@ for ($i = 1; $i < aantalCircles9; $i++) {
 	for ($j = 1; $j < aantalCircles9; $j++) {
 
 		if ($i == $j) {
-			//rood
 			$color = "#EFB357";
 
 		} elseif ($i == 10 - $j) {
-			//rood
 			$color = "#EFB357";
 		} elseif (10 - $j > $i) {
-			//blauw
 			$color = "#78BAC9";
 		} else {
-			//groen
 			$color = "#78BAC9";
 		}
 		echo ("<div class ='circle' style=background:$color;></div>");
